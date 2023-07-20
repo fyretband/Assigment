@@ -1,0 +1,33 @@
+
+/* Add CSS styling for the table */
+.student-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+}
+/* Style the button */
+.submit-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Center the button */
+.submit-button {
+  display: block;
+  margin: 0 auto;
+}
